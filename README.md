@@ -31,21 +31,21 @@ cd Expense_Tracker
 
 2. Install dependencies:
 ```bash
-npm install
+yarn install
 ```
 
 3. Start the development server:
 ```bash
-npm run dev
+yarn dev
 ```
 
 4. Open your browser and navigate to `http://localhost:5173`
 
 ## 🛠️ Available Scripts
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
+- `yarn dev` - Start the development server
+- `yarn build` - Build for production
+- `yarn preview` - Preview production build locally
 
 ## 📁 Project Structure
 
@@ -64,8 +64,11 @@ Expense_Tracker/
 │   └── main.jsx                 # Application entry point
 ├── index.html
 ├── package.json
+├── yarn.lock
 ├── vite.config.js
-└── tailwind.config.js
+├── postcss.config.js
+├── tailwind.config.js
+└── .gitignore
 ```
 
 ## 💡 Usage
